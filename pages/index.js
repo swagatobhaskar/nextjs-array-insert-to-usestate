@@ -12,7 +12,6 @@ export default function IndexPage() {
   const addThisTag = (tag) => {
     setTags((tags) => [...tags, tag]);
     setTag("");
-    console.log("Added: ", tags);
   };
 
   const sendTags = () => {
